@@ -19,20 +19,18 @@ This project provides a simple URL shortening service built using Node.js, Expre
     git clone https://github.com/yourusername/url-shortener.git
     ```
 
-2. **Navigate to the backend directory:**
-    ```bash
-    cd url-shortener/backend
-    ```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
     ```bash
     npm install
     ```
-
+3. **Run the node server:**
+    ```bash
+    npm run startServer
+    ```
 4. **Set up environment variables:**
     - Create a `.env` file based on the provided `.env.example` and configure MongoDB connection details.
 
-5. **Start the backend server:**
+5. **Start the frontend server:**
     ```bash
     npm start
     ```
@@ -54,7 +52,7 @@ This project provides a simple URL shortening service built using Node.js, Expre
     ```
 
 ## Usage
-- Access the application by navigating to [http://localhost:3000](http://localhost:3000) in your browser.
+- Access the application by navigating to [http://localhost:3001](http://localhost:3001) in your browser.
 - Use the interface to create shortened URLs and view statistics.
 - Access the API endpoints for URL shortening functionality.
 
